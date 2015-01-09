@@ -2,6 +2,11 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.1 (2015-01-08)
+------------------
+* Add max_velocity_scaling_factor to MotionPlanRequest.
+* Contributors: Michael Ferguson, kohlbrecher
+
 0.5.4 (2014-03-10)
 ------------------
 * update e-mail addresses
