@@ -1,3 +1,24 @@
+## moveit_msgs (indigo) - 0.6.1-0
+
+The packages in the `moveit_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo moveit_msgs` on `Fri, 09 Jan 2015 00:43:26 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros-gbp/moveit_msgs-release.git
+- rosdistro version: `0.6.0-0`
+- old version: `0.6.0-0`
+- new version: `0.6.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## moveit_msgs (indigo) - 0.6.0-0
 
 The packages in the `moveit_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo moveit_msgs` on `Tue, 28 Oct 2014 05:55:23 -0000`
