@@ -2,6 +2,18 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.1 (2016-04-13)
+------------------
+* Adding acceleration scaling factor `#17 <https://github.com/ros-planning/moveit_msgs/issues/17>`_ 
+* Contributors: Dave Coleman, hemes
+
+0.7.0 (2016-01-30)
+------------------
+* add db state
+* added services for delete and rename
+* added services for warehouse access
+* Contributors: Sachin Chitta, dg
+
 0.6.1 (2015-01-08)
 ------------------
 * Add max_velocity_scaling_factor to MotionPlanRequest.
