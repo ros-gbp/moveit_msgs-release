@@ -1,3 +1,26 @@
+## moveit_msgs (jade) - 0.8.1-0
+
+The packages in the `moveit_msgs` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade moveit_msgs` on `Wed, 15 Jun 2016 18:16:49 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros-gbp/moveit_msgs-release.git
+- rosdistro version: `0.8.0-0`
+- old version: `0.8.0-0`
+- new version: `0.8.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## moveit_msgs (jade) - 0.8.0-0
 
 The packages in the `moveit_msgs` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade moveit_msgs --edit` on `Fri, 22 Apr 2016 05:19:53 -0000`
