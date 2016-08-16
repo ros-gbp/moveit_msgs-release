@@ -2,7 +2,7 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.2 (2016-06-15)
+0.8.1 (2016-06-15)
 ------------------
 * [feat] add new srv ApplyPlanningScene `#21 <https://github.com/ros-planning/moveit_msgs/issues/21>`_  
   This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a `bool success` field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
@@ -12,7 +12,7 @@ Changelog for package moveit_msgs
 
 0.7.1 (2016-04-13)
 ------------------
-* Adding acceleration scaling factor `#17 <https://github.com/ros-planning/moveit_msgs/issues/17>`_ 
+* [feat] **MD5 change** Adding acceleration scaling factor (Cherry-pick `#17 <https://github.com/ros-planning/moveit_msgs/issues/17>`_ into jade) `#20 <https://github.com/ros-planning/moveit_msgs/issues/20>`_
 * Contributors: Dave Coleman, hemes
 
 0.7.0 (2016-01-30)
