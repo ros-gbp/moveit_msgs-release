@@ -2,13 +2,13 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.2 (2016-08-20)
+0.7.3 (2016-08-20)
 ------------------
 * Add ExecuteTrajectory.action for execution trajectory in a ROS action (`#24 <https://github.com/ros-planning/moveit_msgs/issues/24>`_), (`#27 <https://github.com/ros-planning/moveit_msgs/issues/27>`_)
 * [fix] Update maintainers. Bad encoding. `#26 <https://github.com/ros-planning/moveit_msgs/issues/26>`_
 * Contributors: Kentaro Wada, Isaac I.Y. Saito
 
-0.8.1 (2016-06-15)
+0.7.2 (2016-06-15)
 ------------------
 * [feat] add new srv ApplyPlanningScene `#21 <https://github.com/ros-planning/moveit_msgs/issues/21>`_  
   This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a `bool success` field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
@@ -18,7 +18,7 @@ Changelog for package moveit_msgs
 
 0.7.1 (2016-04-13)
 ------------------
-* [feat] **MD5 change** Adding acceleration scaling factor (Cherry-pick `#17 <https://github.com/ros-planning/moveit_msgs/issues/17>`_ into jade) `#20 <https://github.com/ros-planning/moveit_msgs/issues/20>`_
+* Adding acceleration scaling factor `#17 <https://github.com/ros-planning/moveit_msgs/issues/17>`_ 
 * Contributors: Dave Coleman, hemes
 
 0.7.0 (2016-01-30)
