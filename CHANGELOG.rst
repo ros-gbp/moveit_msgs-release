@@ -2,13 +2,19 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.3 (2016-08-20)
+------------------
+* Add ExecuteTrajectory.action for execution trajectory in a ROS action (`#24 <https://github.com/ros-planning/moveit_msgs/issues/24>`_), (`#27 <https://github.com/ros-planning/moveit_msgs/issues/27>`_)
+* [fix] Update maintainers. Bad encoding. `#26 <https://github.com/ros-planning/moveit_msgs/issues/26>`_
+* Contributors: Kentaro Wada, Isaac I.Y. Saito
+
 0.7.2 (2016-06-15)
 ------------------
 * [feat] add new srv ApplyPlanningScene `#21 <https://github.com/ros-planning/moveit_msgs/issues/21>`_  
   This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a `bool success` field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
 * [feat] apply_planning_scene: add a success field in response
   This will be set to true in indigo, but might return false in kinetic and upcoming after we broke the underlying API to get that information.
-* Contributors: Dave Coleman, Michael Gè´”rner
+* Contributors: Dave Coleman, Michael Goerner
 
 0.7.1 (2016-04-13)
 ------------------
