@@ -1,0 +1,77 @@
+ros-jade-moveit-msgs (0.8.2-0utopic) utopic; urgency=high
+
+  * Add ExecuteTrajectory.action for execution trajectory in a ROS action (#24 <https://github.com/ros-planning/moveit_msgs/issues/24>), (#27 <https://github.com/ros-planning/moveit_msgs/issues/27>)
+  * [fix] Update maintainers. Bad encoding. #26 <https://github.com/ros-planning/moveit_msgs/issues/26>
+  * Contributors: Kentaro Wada, Isaac I.Y. Saito
+
+ -- Dave Coleman <dave@dav.ee>  Sat, 20 Aug 2016 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.8.1-0utopic) utopic; urgency=high
+
+  * [feat] add new srv ApplyPlanningScene #21 <https://github.com/ros-planning/moveit_msgs/issues/21>
+    This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a bool success field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
+  * [feat] apply_planning_scene: add a success field in response
+    This will be set to true in indigo, but might return false in kinetic and upcoming after we broke the underlying API to get that information.
+  * Contributors: Dave Coleman, Michael Goerner
+
+ -- Ioan Sucan <isucan@google.com>  Wed, 15 Jun 2016 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.7.1-0utopic) utopic; urgency=high
+
+  * [feat] **MD5 change** Adding acceleration scaling factor (Cherry-pick #17 <https://github.com/ros-planning/moveit_msgs/issues/17> into jade) #20 <https://github.com/ros-planning/moveit_msgs/issues/20>
+  * Contributors: Dave Coleman, hemes
+
+ -- Ioan Sucan <isucan@google.com>  Wed, 13 Apr 2016 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.7.0-0utopic) utopic; urgency=high
+
+  * add db state
+  * added services for delete and rename
+  * added services for warehouse access
+  * Contributors: Sachin Chitta, dg
+
+ -- Ioan Sucan <isucan@google.com>  Sat, 30 Jan 2016 08:00:00 -0000
+
+ros-jade-moveit-msgs (0.6.1-0utopic) utopic; urgency=high
+
+  * Add max_velocity_scaling_factor to MotionPlanRequest.
+  * Contributors: Michael Ferguson, kohlbrecher
+
+ -- Ioan Sucan <isucan@google.com>  Thu, 08 Jan 2015 08:00:00 -0000
+
+ros-jade-moveit-msgs (0.5.4-0utopic) utopic; urgency=high
+
+  * update e-mail addresses
+  * Contributors: Ioan Sucan
+
+ -- Ioan Sucan <isucan@google.com>  Mon, 10 Mar 2014 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.5.3-0utopic) utopic; urgency=high
+
+  * Added some verbose explanatory comments to Grasp message.
+  * Added planning time to move group action result.
+
+ -- Ioan Sucan <isucan@google.com>  Tue, 03 Dec 2013 08:00:00 -0000
+
+ros-jade-moveit-msgs (0.5.2-0utopic) utopic; urgency=high
+
+  * add diff flag for RobotState
+  * add option for how place positions are interpreted: object pose or eef pose
+  * no longer depend on manipulation_msgs
+
+ -- Ioan Sucan <isucan@google.com>  Mon, 23 Sep 2013 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.5.1-0utopic) utopic; urgency=high
+
+  * remove CollisionMap message
+
+ -- Ioan Sucan <isucan@google.com>  Tue, 13 Aug 2013 07:00:00 -0000
+
+ros-jade-moveit-msgs (0.5.0-0utopic) utopic; urgency=high
+
+  * move msgs to common_msgs
+  * removing unneeded member
+
+ -- Ioan Sucan <isucan@google.com>  Mon, 15 Jul 2013 07:00:00 -0000
+
+
