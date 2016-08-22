@@ -1,0 +1,12 @@
+Source: ros-indigo-moveit-msgs
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <dave@dav.ee>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-object-recognition-msgs, ros-indigo-octomap-msgs, ros-indigo-sensor-msgs, ros-indigo-shape-msgs, ros-indigo-std-msgs, ros-indigo-trajectory-msgs
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-indigo-moveit-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-object-recognition-msgs, ros-indigo-octomap-msgs, ros-indigo-sensor-msgs, ros-indigo-shape-msgs, ros-indigo-std-msgs, ros-indigo-trajectory-msgs
+Description: Messages, services and actions used by MoveIt
