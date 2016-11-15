@@ -2,7 +2,7 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.4 (2016-11-15)
+0.9.0 (2016-11-15)
 ------------------
 * [capability] new GraspPlanning service to replace manipulation_msgs version (`#32 <https://github.com/ros-planning/moveit_msgs/issues/32>`_)
 * [maintenance] Switch travis to moveit_ci (`#31 <https://github.com/ros-planning/moveit_msgs/issues/31>`_)
