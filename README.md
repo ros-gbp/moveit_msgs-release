@@ -1,3 +1,26 @@
+## moveit_msgs (kinetic) - 0.9.1-0
+
+The packages in the `moveit_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic moveit_msgs` on `Mon, 06 Feb 2017 16:46:24 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros-gbp/moveit_msgs-release.git
+- rosdistro version: `0.9.0-0`
+- old version: `0.9.0-0`
+- new version: `0.9.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## moveit_msgs (kinetic) - 0.9.0-0
 
 The packages in the `moveit_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic moveit_msgs --edit` on `Tue, 15 Nov 2016 21:47:10 -0000`
