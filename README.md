@@ -1,3 +1,26 @@
+## moveit_msgs (lunar) - 0.9.1-0
+
+The packages in the `moveit_msgs` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --rosdistro lunar --track lunar moveit_msgs` on `Fri, 14 Apr 2017 14:11:52 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## moveit_msgs (kinetic) - 0.9.1-0
 
 The packages in the `moveit_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic moveit_msgs` on `Mon, 06 Feb 2017 16:46:24 -0000`
