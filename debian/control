@@ -1,0 +1,12 @@
+Source: ros-lunar-moveit-msgs
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <dave@dav.ee>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib-msgs, ros-lunar-catkin, ros-lunar-geometry-msgs, ros-lunar-message-generation, ros-lunar-object-recognition-msgs, ros-lunar-octomap-msgs, ros-lunar-sensor-msgs, ros-lunar-shape-msgs, ros-lunar-std-msgs, ros-lunar-trajectory-msgs
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-lunar-moveit-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib-msgs, ros-lunar-geometry-msgs, ros-lunar-message-runtime, ros-lunar-object-recognition-msgs, ros-lunar-octomap-msgs, ros-lunar-sensor-msgs, ros-lunar-shape-msgs, ros-lunar-std-msgs, ros-lunar-trajectory-msgs
+Description: Messages, services and actions used by MoveIt
