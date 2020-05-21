@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(moveit_msgs)
 
 set(MSG_DEPS
@@ -11,7 +11,7 @@ set(MSG_DEPS
   object_recognition_msgs
   octomap_msgs)
 
-find_package(catkin REQUIRED genmsg ${MSG_DEPS})
+find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
 
 set(MSG_FILES
 AllowedCollisionEntry.msg
@@ -34,6 +34,9 @@ LinkScale.msg
 MotionPlanRequest.msg
 MotionPlanResponse.msg
 MotionPlanDetailedResponse.msg
+MotionSequenceItem.msg
+MotionSequenceRequest.msg
+MotionSequenceResponse.msg
 MoveItErrorCodes.msg
 TrajectoryConstraints.msg
 ObjectColor.msg
@@ -64,6 +67,7 @@ GetPlanningScene.srv
 GraspPlanning.srv
 ApplyPlanningScene.srv
 QueryPlannerInterfaces.srv
+GetMotionSequence.srv
 GetPositionFK.srv
 GetPositionIK.srv
 GetPlannerParams.srv
@@ -76,11 +80,14 @@ GetRobotStateFromWarehouse.srv
 CheckIfRobotStateExistsInWarehouse.srv
 RenameRobotStateInWarehouse.srv
 DeleteRobotStateFromWarehouse.srv
+ChangeControlDimensions.srv
+ChangeDriftDimensions.srv
 )
 
 set(ACT_FILES
 ExecuteTrajectory.action
 MoveGroup.action
+MoveGroupSequence.action
 Pickup.action
 Place.action
 )
@@ -91,4 +98,4 @@ add_service_files(DIRECTORY srv FILES ${SRV_FILES})
 
 generate_messages(DEPENDENCIES ${MSG_DEPS})
 
-catkin_package(DEPENDS ${MSG_DEPS})
+catkin_package(CATKIN_DEPENDS message_runtime ${MSG_DEPS})
