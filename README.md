@@ -1,3 +1,26 @@
+## moveit_msgs (melodic) - 0.10.1-1
+
+The packages in the `moveit_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic moveit_msgs` on `Thu, 21 May 2020 09:31:26 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros-gbp/moveit_msgs-release.git
+- rosdistro version: `0.10.0-0`
+- old version: `0.10.0-0`
+- new version: `0.10.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## moveit_msgs (melodic) - 0.10.0-0
 
 The packages in the `moveit_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic --track melodic moveit_msgs` on `Tue, 17 Apr 2018 18:23:28 -0000`
