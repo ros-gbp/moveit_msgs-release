@@ -2,15 +2,22 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.10.1 (2020-05-21)
+0.11.0 (2020-08-19)
 -------------------
+* [feature] add {prismatic,revolute}_jump_threshold (`#84 <https://github.com/ros-planning/moveit_msgs/issues/84>`_)
+* [feature] Add service to update pointcloud octomap (`#66 <https://github.com/ros-planning/moveit_msgs/issues/66>`_)
 * [feature] Add messages to plan for sequences (`#65 <https://github.com/ros-planning/moveit_msgs/issues/65>`_)
-* [feature] Jog arm backport (`#70 <https://github.com/ros-planning/moveit_msgs/issues/70>`_)
-* [improve] Correct typos/better phrasing in Place.action & Add missing word to CollisionObject.msg (`#52 <https://github.com/ros-planning/moveit_msgs/issues/52>`_)
-* [improve] Add comment all scene components returned if no components specified (`#51 <https://github.com/ros-planning/moveit_msgs/issues/51>`_)
-* [maintenance] Bump cmake version (`#67 <https://github.com/ros-planning/moveit_msgs/issues/67>`_)
-* [maintenance] Fix catkin_lint issues (`#56 <https://github.com/ros-planning/moveit_msgs/issues/56>`_)
-* Contributors: Bence Magyar, Bryce Willey, Christian Henkel, Felix von Drigalski, Jens P, Markus Vieth, Michael Görner, Robert Haschke, Tyler Weaver
+* [feature] Change jogging drift dimensions (`#63 <https://github.com/ros-planning/moveit_msgs/issues/63>`_)
+* [feature] Add ChangeControlDimensions.srv for moveit_jog_arm (`#61 <https://github.com/ros-planning/moveit_msgs/issues/61>`_)
+* [feature] Ability to hide visualized robot states (`#55 <https://github.com/ros-planning/moveit_msgs/issues/55>`_)
+* [feature] Add fields to set max Cartesian end effector speed (`#80 <https://github.com/ros-planning/moveit_msgs/issues/80>`_)
+* [feature] Remove attempts field from PositionIKRequest.msg (`#76 <https://github.com/ros-planning/moveit_msgs/issues/76>`_)
+* [feature] add COMMUNICATION_FAILURE (`#73 <https://github.com/ros-planning/moveit_msgs/issues/73>`_)
+* [feature] Add origin Pose to CollisionObject (`#69 <https://github.com/ros-planning/moveit_msgs/issues/69>`_)
+* [feature] Add field quality to PlaceLocation (`#64 <https://github.com/ros-planning/moveit_msgs/issues/64>`_)
+* [feature] Extend MotionPlanRequest with seed trajectories (`#46 <https://github.com/ros-planning/moveit_msgs/issues/46>`_)
+* [feature] Allow subframes in CollisionObjects (`#50 <https://github.com/ros-planning/moveit_msgs/issues/50>`_)
+* Contributors: 2scholz, AdamPettinger, AndyZe, Bence Magyar, Bryce Willey, Christian Henkel, Dale Koenig, Dave Coleman, Felix von Drigalski, Jens P, Markus Vieth, Michael Görner, Naoya Yamaguchi, Robert Haschke
 
 0.10.0 (2018-04-17)
 -------------------
@@ -42,7 +49,7 @@ Changelog for package moveit_msgs
 
 0.8.1 (2016-06-15)
 ------------------
-* [feat] add new srv ApplyPlanningScene `#21 <https://github.com/ros-planning/moveit_msgs/issues/21>`_
+* [feat] add new srv ApplyPlanningScene `#21 <https://github.com/ros-planning/moveit_msgs/issues/21>`_  
   This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a `bool success` field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
 * [feat] apply_planning_scene: add a success field in response
   This will be set to true in indigo, but might return false in kinetic and upcoming after we broke the underlying API to get that information.
