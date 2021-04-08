@@ -1,3 +1,26 @@
+## moveit_msgs (noetic) - 0.11.2-1
+
+The packages in the `moveit_msgs` repository were released into the `noetic` distro by running `/home/tyler/.local/bin/bloom-release --rosdistro noetic moveit_msgs` on `Thu, 08 Apr 2021 23:10:03 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros-gbp/moveit_msgs-release.git
+- rosdistro version: `0.11.1-1`
+- old version: `0.11.1-1`
+- new version: `0.11.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## moveit_msgs (noetic) - 0.11.1-1
 
 The packages in the `moveit_msgs` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic moveit_msgs` on `Fri, 09 Oct 2020 16:20:42 -0000`
