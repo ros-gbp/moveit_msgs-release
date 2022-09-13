@@ -43,6 +43,11 @@ bool avoid_collisions
 # Specify additional constraints to be met by the Cartesian path
 Constraints path_constraints
 
+# Maximum cartesian speed for the given link.
+# If max_cartesian_speed <= 0 the trajectory is not modified.
+string cartesian_speed_limited_link
+float64 max_cartesian_speed # m/s
+
 ---
 
 # The state at which the computed path starts
